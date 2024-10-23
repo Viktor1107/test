@@ -1,0 +1,32 @@
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  width: 300px;
+  border: 1px solid rgb(121, 110, 110);
+  background-color: rgb(68, 63, 63);
+  padding: 15px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  & p {
+    color: rgb(246, 242, 242);
+  }
+}
+.span {
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px;
+}
+
+.btn {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 80px;
+  height: 60px;
+}
+
+.text {
+}

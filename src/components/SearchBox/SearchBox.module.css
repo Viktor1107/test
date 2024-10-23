@@ -1,0 +1,12 @@
+.wrap {
+  display: flexbox;
+  & p {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  & input {
+    width: 260px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,18 @@
+import "./App.css";
+import { Layout } from "./components/Layout/Layout";
+import ContactList from "./components/ContactList/ContactList";
+import SearchBox from "./components/SearchBox/SearchBox";
+import ContactForm from "./components/ContactForm/ContactForm";
+
+export const App = () => {
+  return (
+    <Layout>
+      <div>
+        <h1>Phonebook</h1>
+        <ContactForm />
+        <SearchBox />
+        <ContactList />
+      </div>
+    </Layout>
+  );
+};
