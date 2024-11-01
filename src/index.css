@@ -28,7 +28,7 @@ body {
   place-items: center;
   min-width: 320px; */
   min-height: 100vh;
-  background-image: url(./img/Depositphotos_124780260_S-1-1.jpg);
+  /* background-image: url(./img/Depositphotos_124780260_S-1-1.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
 }
